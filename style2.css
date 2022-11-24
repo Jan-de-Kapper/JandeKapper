@@ -1,0 +1,116 @@
+hr{
+    background: rgba(224,218,224,255);
+    height: 2px;
+    border: none;
+    margin-top: 15px;
+    width: 100%;
+    color: #080808;
+}
+
+h6 {
+    color: white;
+    font-size: 25px;
+    margin-bottom: -0.5%;
+}
+
+.footer p{
+    color: white;
+}
+
+.fa-solid{
+    color: black;
+    margin-right: 5%;
+   text-decoration: none;
+   transition: 0.5s ease;
+   scale: 130%;
+}
+
+.re-direct:hover{
+    color: white;
+    scale: 150%;
+    transition: 0.5s ease;
+}
+
+.footer{
+    display: inline-block;
+    display: flex;
+    font-size: 22px;
+    justify-content: space-between;
+    position: relative;
+    list-style: none;
+    background: rgb(255,182,72);
+background: linear-gradient(118deg, rgba(255,182,72,1) 11%, rgba(255,93,93,1) 98%);
+ 
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 100px;
+}
+
+
+.left-container{
+    max-width: 30%;
+}
+
+
+
+.middle-container{
+    font-weight: 600;
+    max-width: 30%;
+    
+}
+
+.right-container{
+    justify-content: center; 
+    max-width: 30%;  
+}
+
+.fa-brands{
+    color: black;
+    scale: 250%;
+    margin-right: 10px;
+    transition: 0.5s ease;
+}
+
+.fa-brands:hover{
+    scale: 300%;
+    color: white;
+    transition: 0.5s ease;
+}
+
+
+.right-container ul.Socials li{
+    list-style: none;
+    margin-left: -15%;
+    font-size: 15px;
+    margin-bottom: 30px;
+    color: rgb(255, 255, 255);
+}
+
+.facebook{
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
+}
+
+.twitter{
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
+    
+}
+
+.insta{
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
+}
+
+.open b{
+    color: white;
+    margin-left: 15px;
+}
+
+.chek{
+    text-align: center;
+}
+
