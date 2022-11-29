@@ -12,7 +12,7 @@ hr{
     color: #080808;
 }
 
-h6 {
+.footer h6 {
     color: white;
     font-size: 25px;
     margin-bottom: -0.5%;
@@ -93,6 +93,69 @@ h6 {
     margin-left: 15px;
 }
 
-@media (max-width:500px){
+@media (max-width:600px){
+    .body{
+        margin: auto;
+        padding: 0;
+    }
+    
+    .footer p{
+        font-size: 10px;
+        width: 100%;
+    }
 
+    .footer h6 {
+        color: white;
+        font-size: 15px;
+        margin-bottom: -0.5%;
+    }
+
+    .left-container{
+        max-width: 50px;
+    }
+
+    .middle-container{
+        max-width: 150px;
+        font-size: 10px;
+        vertical-align: middle;
+    }
+
+    .right-container{
+        max-width: 50px;
+        font-size: 8px;
+        margin-top: -17px;
+    }
+
+    .right-container h6{
+        margin-bottom: -5%;
+    }
+
+    .fa-brands{
+        color: black;
+        scale: 150%;
+        margin-right: 100px;
+        transition: 0.5s ease;
+    }
+
+    .fa-brands:hover{
+        scale: 175%;
+    }
+
+    .middle-container hr{
+        width: 100px;
+    }
+
+    .right-container ul.Socials li{
+        list-style: none;
+        margin-left: -115%;
+        font-size: 10px;
+        margin-bottom: 10px;
+        color: rgb(255, 255, 255);
+    }
+
+    .right-container ul.Socials{
+        margin-left: -30%;
+        margin-top: 1rem;
+    }
+    
 }
