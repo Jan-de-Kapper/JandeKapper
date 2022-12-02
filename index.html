@@ -2,22 +2,108 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="style2.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap" rel="stylesheet">
-    <title>Document</title>
+    <title>Marjoleins kapperszaak</title>
+
+    <!-- font awesome link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"/>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- css link -->
+    <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
+<!-- header gedeelte start  -->
+
+<header>
+
+<a href="#" class="logo">logo</a>
+
+<nav class="navbar">
+    <ul>
+        <li><a href="#">Over ons</a></li>
+        <li><a href="#">Behandelingen</a></li>
+        <li><a href="#">Inspiratie</a></li>
+        <li><a href="#">Producten</a></li>
+        <li><a href="#">Afspraak</a></li>
+    </ul>
+</nav>
+<div class="fas fa-bars"></div>
+</header>
+<!-- header gedeelte stopt -->
+
+
+<!-- home section start  -->
+<section class= "home" id="home">
+
+<div class="filler">
+<h1 class="animate-hero">Marjolein de Kapper</h1>
+<img src="marjolein_rond.jpg">
+<p>Een plek waar je je echt thuis voelt!</p>
+<button href="#">Maak een afspraak</button>
+</div>
+
+    <div class="container">
+        <div class="card">
+            <div class="face face1">
+                <div class="content">
+                    <h3>Veelgestelde vragen</h3>
+                </div>
+            </div>
+            <div class="face face2">
+                <div class="content">
+                    <p>Hier kunt u antwoorden vinden op vragen die wij vaak gesteld krijgen.</p>
+                        <a href="#">Lees meer</a>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="face face1">
+                <div class="content">
+                    <h3>Kom bij ons werken</h3>
+                </div>
+            </div>
+            <div class="face face2">
+                <div class="content">
+                    <p>We zijn altijd op zoek naar enthousiaste nieuwe werknemers. Ben je geïnteresseerd?
+                        Neem dan een kijkje.
+                    </p>
+                        <a href="#">Lees meer</a>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="face face1">
+                <div class="content">
+                    <h3>Bekijk de drukte vandaag</h3>
+                </div>
+            </div>
+            <div class="face face2">
+                <div class="content">
+                    <p>Hier kunt u bekijken hoe druk het deze dag op de zaak is. Als het rustig is kunt u zelfs op dezelfde
+                        dag nog een afspraak inplannen.
+                    </p>
+                        <a href="#">Lees meer</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- home section stopt  -->
+
+<!-- Davey's footer start-->
+
+<hr>
     <div class="footer">
         <div class="left-container">
             <h6>Contact <hr> </h6>
             <div class="info">
                 <p><i class="fa-sharp fa-solid fa-location-dot" ></i>Heidelberglaan 15, Utrecht</p></a>
-                <p><i class="fa-sharp fa-solid fa-hashtag"></i>36982374</p>
-                <p><i class="fa-solid fa-phone re-direct"></i>0612345678</p>
-                <p><A HREF="mailto:gebruiker@provider.nl" i class="fa-solid fa-envelope re-direct"></a></i>Marjolein.k@gmail.com</p>
+                <p><i class="fa-sharp fa-solid fa-hashtag"></i>KvK nummer</p>
+                <p><i class="fa-solid fa-phone re-direct"></i>Telefoon nummer</p>
+                <p><A HREF="mailto:gebruiker@provider.nl" i class="fa-solid fa-envelope re-direct"></a></i></p>
         </div>
     </div>
 
@@ -85,11 +171,22 @@
             <h6>Onze Socials <hr></h6>
            
             <ul class="Socials">
-                <li><a href="https://www.facebook.com/davey.bogers/"><i class="fa-brands fa-facebook-f"></i></a></li>
-                <li><a href="https://twitter.com/DaveB2003"><i class="fa-brands fa-twitter"></i></a></li>
-                <li><a href="https://instagram.com"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="https://www.facebook.com/davey.bogers/"><i class="fa-brands fa-facebook-f"></i></a> &nbsp;</li>
+                <li><a href="https://twitter.com/DaveB2003"><i class="fa-brands fa-twitter"></i></a>&nbsp;&nbsp;&nbsp;</li>
+                <li><a href="https://instagram.com"><i class="fa-brands fa-instagram"></i></a> &nbsp;</li>
             </ul>
         </div>
     </div>
+
+
+<!-- Davey's footer end-->
+
+
+<!-- jquery link-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+<!-- js link-->
+<script src="main.js"></script>
+
 </body>
 </html>
