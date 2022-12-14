@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap');
+
+:root{
+  --oranje: #f7a222;
+  --rood: #FF5D5D;
+}
+
+*{
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  text-transform: capitalize;
+  outline: none;
+  margin: 0; padding: 0;
+  box-sizing: border-box;
+}
+header{
+    width: 96%;
+    background: whitesmoke;
+    position: fixed;
+    top: 2rem; left: 50%;
+    transform: translateX(-50%);
+    border-radius: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    z-index: 1000;
+    transition-duration: .4s;
+  }
+  body{
+    background-color: rgb(161, 161, 161);
+  }
+  .header-active{
+    top:0;
+    width:100%;
+    border-radius: 0;
+    box-shadow: 0 .1rem .3rem #000;
+    transition-duration: .4s;
+  }
+  header .navbar ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  header .navbar ul li{
+    margin: 5px;
+  }
+  header .navbar ul li a{
+    font-size: 12px;
+    color: black;
+  }
+  header .navbar ul li a:hover{
+    color:var(--oranje);
+    transition-duration: .5s;
+  }
+  header .logo{
+    font-size: 12px;
+    color: var(--oranje);
+    text-transform: uppercase;
+  }
+  header .fa-bars{
+    font-size: 20px;
+    cursor: pointer;
+    color: var(--oranje);
+    display: none;
+    transition: .3s;
+  }
+  header .fa-times{
+    transform: rotate(180deg);
+    color: var(--oranje);
+  }
+.header-text h1{
+    padding-top: 10rem;
+}
+.inleiding img{
+    width: 50%;
+    height: 50%;
+    border-radius: 120px;
+}
+.inleiding{
+    display:flex;
+    padding-top: 10px;
+}
+.card-holder{
+    flex-flow: column;
+    text-align: center;
+	overflow: hidden;
+	position: relative;
+	margin: 2rem;
+	border-radius: 25px;
+	background:rgb(255, 177, 121);
+	width: 750px;
+	height: 550px;
+    padding: 20px 30px;
+}
+.card-holder h1{
+    font-size: 35px;
+    text-transform: none;
+}
+.card-holder p{
+    font-size: 16px;
+    text-transform: none;
+    letter-spacing: 1.2px;
+}
+/* Float four columns side by side */
+.column {
+    float: left;
+    width: 33%;
+    padding: 0 10px;
+    padding-top: 70px;
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: whitesmoke;
+    border-radius: 25px;
+    height: 180px;
+  }
+  .card h3{
+    text-transform: none;
+  }
+  .card p{
+    text-transform: none;
+    padding-top: 12px;
+  }
+  iframe{
+    flex-direction: column;
+    padding-top: 5rem;
+    width: 60%;
+    height: 90vh;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .maps h1{
+    flex-direction: column;
+  }
+
+  /* media query time bby */
+  @media (max-width: 770px){
+    html{
+      font-size: 55%;
+    }
+    header .fa-bars{
+      display: block;
+    }
+    header .navbar{
+      position: fixed;
+      top: -100rem; left: 0;
+      width: 100%;
+      background: #FFF;
+      border-radius: 1rem;
+      opacity: 0; 
+      transition: .4s linear;
+    }
+    header .navbar ul{
+      flex-flow: column;
+      padding: 2rem 0;
+    }
+    header .navbar ul li{
+      margin: 1rem 0;
+      width: 100%;
+      text-align: center;
+    }
+    header .navbar ul li a{
+      font-size: 20px;
+      display: block;
+    }
+    header .nav-toggle{
+      top: 5.5rem;
+      opacity: 1;
+    }
+    .inleiding img{
+        flex-direction: column;
+    }
+    .card-holder{
+        flex-direction:column;
+    }
+    .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+      }
+      iframe{
+        width: 100%;
+      }
+}
