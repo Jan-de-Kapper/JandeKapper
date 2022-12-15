@@ -102,7 +102,7 @@ text-shadow: 0 1px #808d93, -1px 0 #cdd2d5, -1px 2px #808d93, -2px 1px #cdd2d5, 
     text-transform: none;
 }
 .card-holder p{
-    font-size: 20px;
+    font-size: 19px;
     text-transform: none;
     letter-spacing: 1.2px;
 }
@@ -164,7 +164,6 @@ text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 
   }
 
   /* Footer */
-
 hr{
   background: rgba(224,218,224,255);
   height: 2px;
