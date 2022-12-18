@@ -106,7 +106,6 @@ text-shadow: 0 1px #808d93, -1px 0 #cdd2d5, -1px 2px #808d93, -2px 1px #cdd2d5, 
     text-transform: none;
     letter-spacing: 1.2px;
 }
-/* Float four columns side by side */
 .column {
     float: left;
     width: 33%;
@@ -114,16 +113,13 @@ text-shadow: 0 1px #808d93, -1px 0 #cdd2d5, -1px 2px #808d93, -2px 1px #cdd2d5, 
     padding-top: 70px;
   }
   
-  /* Remove extra left and right margins, due to padding */
   .row {margin: 0 -5px;}
   
-  /* Clear floats after the columns */
   .row:after {
     content: "";
     display: table;
     clear: both;
   }
-  /* Style the counter cards */
   .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     padding: 16px;
