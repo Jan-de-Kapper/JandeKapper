@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: gray;
+}
+
+.container{
+    width: 360px;
+    height: 400px;
+    margin: 8% auto;
+    background: #fff;
+    border-radius: 10px;
+    position: relative;
+    background: #f8f7fb;
+    display: grid;
+
+}
+
+h3{
+    text-align: center;
+    margin-bottom: 30px;
+    color: #777;
+}
+
+form{
+    width: 280px;
+    position: absolute;
+    top: 100px;
+    left: 40px;
+   transition: 0.5s;
+}
+
+form input{
+    width: 100%;
+    padding: 10px 5px;
+    margin: 5px;
+    border: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background:transparent;
+}
+
+::placeholder{
+    color: #777;
+}
+
+#Form1 input{
+    color: #777;
+}
+
+.btn-box{
+    width: 100%;
+    margin: 30px auto;
+    text-align: center;
+    transition: 0.5s;
+}
+
+form button{
+    width: 110px;
+    height: 35px;
+    margin: 0 10px;
+    background: linear-gradient(118deg, #DBD5ED 11%, #ffb179 98%);
+    border-radius: 30px;
+    border: 0;
+    outline: none;
+    color: rgb(40, 40, 40);
+    cursor: pointer;
+}
+
+
+#Form2{
+    margin-left: 450px;
+    text-align: center;
+    width: 280px;
+    margin-top: -287px;
+    position: relative;
+    transition: ease-in-out 0.5s;
+}
+
+#Form3{
+    margin-left: 0px;
+    text-align: center;
+    width: 280px;
+    margin-top: -287px;
+    position: relative;
+    margin-left: 900px;
+    transition: ease-in-out 0.5s;
+}
+
+#Form4{
+    margin-left: 0px;
+    text-align: center;
+    width: 280px;
+    margin-top: -282px;
+    position: relative;
+    margin-left: 900px;
+    transition: ease-in-out .5s;
+}
+
+.step-row{
+    width: 360px;
+    height: 40px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px -1px 5px -1px  #000;
+    position: relative;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.step-col{
+    width: 200px;
+    text-align: center;
+    color: #333;
+    position: relative;
+    margin: auto;
+    justify-content: space-between;
+}
+
+#progress{
+    position: absolute;
+    height: 100%;
+    width: 90px;
+    background: linear-gradient(118deg, #DBD5ED 11%, #ffb179 98%);
+    transition: 0.7s;
+}
+
+#progress::after{
+    content: '';
+    height: 0px;
+    width: 0px;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    position: absolute;
+    right: -20px;
+    top: 0;
+    border-left: 20px solid #ffb179;
+}
+
+#Form2 select{
+    padding: 6px 8px 6px 8px;
+    border-radius: 15px;
+    margin-bottom: 38px;
+}
+
+#Form3 select{
+    padding: 6px 8px 6px 8px;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-left: -10px;
+    margin-bottom: 37px;
+}
+
+#Form4 select{
+    padding: 6px 8px 6px 8px;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-left: -10px;
+    margin-bottom: 85px;
+}
+
+.page-2{
+    margin-left: 500px;
+    margin-top: -300px;
+    text-align: center;
+}
