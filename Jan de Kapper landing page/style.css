@@ -66,7 +66,7 @@ header .navbar ul li a:hover{
 header .logo{
   font-size: 12px;
   color: var(--oranje);
-  text-transform: uppercase;
+  text-transform: none;
 }
 header .fa-bars{
   font-size: 20px;
