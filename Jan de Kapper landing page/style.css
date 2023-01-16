@@ -312,6 +312,10 @@ header .fa-times{
  text-align: center;
 }
 
+nav ul li a{
+  transform: 0.5s;
+}
+
 .open b{
   color: white;
   margin-left: 15px;

@@ -19,8 +19,10 @@
     <!-- css link -->
     <link rel="stylesheet" href="style.css">
     <link href="./dist/output.css" rel="stylesheet">
+
 </head>
 <body>
+
     <nav class="sidebar close">
         <header>
             <div class="image-text">
@@ -92,34 +94,82 @@
                 
             </div>
         </div>
-
     </nav>
 
-    <section class="home">
-        <div class="text">Dashboard</div>
-        <div class="row">
-            <div class="column">
-              <div class="card">
-                <h3 class="text font-bold text-xl">Aantal afspraken vandaag:</h3>
-              </div>
-            </div>
-        
-            <div class="column">
-              <div class="card">
-                <h3 class="text font-bold text-xl">Medewerkers aanwezig:</h3>
-              </div>
-            </div>
-            
-            <div class="column">
-              <div class="card">
-                <h3 class="text font-bold text-xl">Geschatte inkomsten:</h3>
-              </div>
-            </div>
-            
-          </div>
-    </section>
+<body>
+<style>
+table {
+  margin-left: 100px;  
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 93%;
+}
+
+th{
+    font-size: 15px;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 10px;
+  font-size: 10px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+  margin-right: -20px;
+}
+</style>
+</head>
+<body>
+
+<h2>HTML Table</h2>
+
+<table>
+  <tr>
+    <th>Naam</th>
+    <th>Email</th>
+    <th>Telefoonnumer</th>
+    <th>Haarlengte & Behandeling</th>
+    <th>Datum & Tijd</th>
+  </tr>
+  <tr>
+    <td>.</td>
+    <td>.</td>
+    <td>.</td>
+    <td>.</td>
+    <td>.</td>
+  </tr>
+  <tr>
+    <td>.</td>
+    <td>.</td>
+    <td>.</td>
+    <td>.</td>
+    <td>.</td>
+  </tr>
+  <tr>
+    <td>.</td>
+    <td>.</td>
+    <td>.</td>
+    <td>.</td>
+    <td>.</td>
+  </tr>
+  <tr>
+    <td>.</td>
+    <td>.</td>
+    <td>.</td>
+    <td>.</td>
+    <td>.</td>
+  </tr>
+</table>
+
+</html>
+
+      
+
+
 
     <script src="script.js"></script>
-
 </body>
 </html>
