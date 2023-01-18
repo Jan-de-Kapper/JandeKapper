@@ -28,7 +28,7 @@ html{
 
 header{
   width: 96%;
-  background: rgb(255, 180, 100);
+  background: rgb(255, 190, 121);
   position: fixed;
   top: 2rem; left: 50%;
   transform: translateX(-50%);
@@ -83,7 +83,7 @@ header .fa-times{
 }
 .home{
   min-height: 180vh;
-  background: rgb(255, 255, 255);
+  background: linear-gradient(118deg, rgb(255, 255, 255) 11%, rgb(255, 190, 129) 98%);
   background-size: cover;
   background-position: center;
   z-index: 0;
@@ -101,10 +101,8 @@ header .fa-times{
 }
 .animate-hero{
   color: #202c2d;
-  background: #FFFFFF;
   text-shadow: 0 1px #808d93, -1px 0 #cdd2d5, -1px 2px #808d93, -2px 1px #cdd2d5, -2px 3px #808d93, -3px 2px #cdd2d5, -3px 4px #808d93, -4px 3px #cdd2d5, -4px 5px #808d93, -5px 4px #cdd2d5, -5px 6px #808d93, -6px 5px #cdd2d5, -6px 7px #808d93, -7px 6px #cdd2d5, -7px 8px #808d93, -8px 7px #cdd2d5;
   color: #202c2d;
-  background: #FFFFFF;
   font-size: 8rem;
 }
 .home .filler p{
@@ -148,7 +146,7 @@ header .fa-times{
 .container .card{
   position: relative;
   cursor: pointer;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 .container .card .face{
@@ -426,8 +424,8 @@ nav ul li a{
 
 
 .filler img{
-  width: 80%;
-  height: 80%;
+  width: 0%;
+  height: 100%;
 }
 .home .filler p{
   font-size: 30px;
@@ -508,7 +506,7 @@ form button{
   width: 110px;
   height: 35px;
   margin: 0 10px;
-  background: linear-gradient(118deg, #DBD5ED 11%, #ffb179 98%);
+  background: linear-gradient(118deg, #DBD5ED 11%, #967a66 98%);
   border-radius: 30px;
   border: 0;
   outline: none;
