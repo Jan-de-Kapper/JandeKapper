@@ -345,6 +345,7 @@ iframe{
     display: table;
     clear: both;
   }
+  
   .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     padding: 16px;
@@ -363,3 +364,27 @@ iframe{
     text-transform: none;
     padding-top: 12px;
   }
+  
+  table {
+    margin-left: 100px;  
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 93%;
+  }
+  
+  th{
+      font-size: 15px;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 10px;
+    font-size: 10px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+    margin-right: -20px;
+  }
+  
