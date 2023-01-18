@@ -25,6 +25,7 @@ html{
   font-size: 62%;
   overflow-x: hidden;
 }
+
 header{
   width: 96%;
   background: rgb(255, 180, 100);
@@ -231,9 +232,9 @@ header .fa-times{
   justify-content: space-between;
   position: relative;
   list-style: none;
-  background: rgb(255,182,72);
-  background: linear-gradient(118deg, rgba(255,182,72,1) 11%, rgba(255,93,93,1) 98%);
+  background: rgb(255, 180, 100);
 }
+
 
 .left-container{
   max-width: 30%;
@@ -280,6 +281,10 @@ header .fa-times{
 
 .Socials{
  margin-top: 15%;
+}
+
+.re-direct{
+  color: black;
 }
 
 .fa-brands{
