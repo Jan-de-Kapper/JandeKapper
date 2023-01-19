@@ -83,7 +83,7 @@ header .fa-times{
 }
 .home{
   min-height: 180vh;
-  background: linear-gradient(118deg, rgb(223, 223, 223) 11%, rgb(239, 189, 141) 98%);
+  background: url(marjolein_bg.jpg);
   background-size: cover;
   background-position: center;
   z-index: 0;
@@ -107,10 +107,11 @@ header .fa-times{
 }
 .home .filler p{
   text-transform: none;
-  font-size: 4rem;
-  color: (--oranje);
+  font-size: 5rem;
   padding: 4rem 25rem;
   text-shadow: 0 1.3rem 1.2rem #555555;
+  color: #090909;
+  text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
 }
 .filler img{
   height: 100%;
@@ -424,7 +425,7 @@ nav ul li a{
 
 
 .filler img{
-  width: 0%;
+  width: 100%;
   height: 100%;
 }
 .home .filler p{
