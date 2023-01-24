@@ -259,6 +259,8 @@ header .fa-times{
   justify-content: center;
   text-align: center;
   margin-top: 1%;
+  left: 45%;
+  right: 45%;
 }
 
 .middle-container h6{
@@ -440,6 +442,12 @@ nav ul li a{
       background-position: 200% center;
     }
   }
+
+.container-pop.active{
+ width: 360px;
+ right: -50%;
+ left: -50%;
+}
 }
 
 .container-pop{
@@ -448,7 +456,6 @@ nav ul li a{
   margin: 8% auto;
   background: #fff;
   border-radius: 10px;
-  position: relative;
   background-color: #f8f7fb;
   display: grid;
   overflow: hidden;
@@ -457,7 +464,8 @@ nav ul li a{
   transition: 200ms ease-in-out;
   position: fixed;
   top: 10%;
-  left: 38%;
+  left: 37%;
+  right: 37%;
 }
 
 .container-pop.active{
@@ -600,7 +608,6 @@ form button{
   padding: 6px 8px 6px 8px;
   border-radius: 15px;
   margin-top: 20px;
-  margin-left: -10px;
   margin-bottom: 85px;
 }
 
