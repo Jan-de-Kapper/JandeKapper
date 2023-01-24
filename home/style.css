@@ -61,7 +61,7 @@ header .navbar ul li a{
   color: rgb(0, 0, 0);
 }
 header .navbar ul li a:hover{
-  color:var(--oranje);
+  color: #FFF;
   transition-duration: .5s;
 }
 header .logo{
