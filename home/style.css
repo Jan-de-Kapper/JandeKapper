@@ -393,6 +393,7 @@ nav ul li a{
 .middle-container{
   text-align: center;
   margin: auto;
+  margin-top: 5%;
 }
 
 .middle-container h6{
@@ -403,6 +404,7 @@ nav ul li a{
 .right-container{
   text-align: center;
   margin: auto;
+  margin-top: 5%;
 }
 
 .right-container h6{
