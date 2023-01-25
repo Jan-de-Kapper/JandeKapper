@@ -1,0 +1,28 @@
+{
+    "headers": [
+        "User ID",
+        "Name",
+        "Email",
+        "Tijd"
+    ],
+
+   "rows": [
+    [
+        20012,
+        "Dom",
+        "asnfnas@faf.com",
+        "15:00"
+    ],
+
+    [
+        24325,
+        "Jan",
+        "blabla@lol.com",
+        "15:30"
+    ]
+   ]
+
+   
+
+   
+}

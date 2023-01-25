@@ -1,32 +1,32 @@
 module.exports = {
     1 : {
         name: 'Fred',
-        age: 29,
-        occupation: 'Pedicab driver'
+        email: 'fredlol@outlook.com',
+        telefoonnummer: '0612345678'
     },
     2 : {
-        name: 'Suzy',
-        age: 18,
-        occupation: 'Student'
+        name: 'Sandy',
+        email: 'sandyxd@outlook.com',
+        telefoonnummer: '0612345678'
     },
     3 : {
-        name: 'Jamal',
-        age: 44,
-        occupation: 'Artist'
+        name: 'Bob',
+        email: 'bob@outlook.com',
+        telefoonnummer: '0612345678'
     },
     4 : {
-        name: 'Cathy',
-        age: 31,
-        occupation: 'Nurse'
+        name: 'Jannes',
+        email: 'Jannesrw@outlook.com',
+        telefoonnummer: '0612345678'
     },
     5 : {
-        name: 'George',
-        age: 22,
-        occupation: 'Cook'
+        name: 'Carti',
+        email: 'cartier@outlook.com',
+        telefoonnummer: '0612345678'
     },
     6 : {
-        name: 'Omar',
-        age: 58,
-        occupation: 'Chief Technical Officer'
+        name: 'Ahmed',
+        email: 'ahmedmohammed@outlook.com',
+        telefoonnummer: '0612345678'
     }
 }
