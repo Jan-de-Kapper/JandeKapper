@@ -39,6 +39,7 @@ body.dark{
     --primary-color-light: #3a3b3c;
     --toggle-color: #fff;
     --text-color: #ccc;
+    --res--color: rgb(108, 105, 105);
 }
 
 /* ===== Sidebar ===== */
@@ -384,7 +385,10 @@ iframe{
   }
   
   tr:nth-child(even) {
-    background-color: #dddddd;
+    background-color: var(--res--color);
     margin-right: -20px;
   }
   
+  tr:nth-child(odd){
+    color: var(--res--color);
+  }
